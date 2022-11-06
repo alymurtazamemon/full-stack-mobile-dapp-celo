@@ -16,6 +16,10 @@ const DEVCHAIN_MNEMONIC =
 // You need to export an object to set up your config
 // Go to https://hardhat.org/config/ to learn more
 
+// PRIVATE_KEY="0x0a74a2993a83444fefd98642def34ab7c0be49b40580c0264ce03a037454413d"
+
+// Your account address:  0x56E14dB3C02c814d9b53B80deDa9d7C978AB6cE2
+
 /**
  * @type import('hardhat/config').HardhatUserConfig
  */
@@ -51,8 +55,8 @@ module.exports = {
   },
   etherscan: {
     apiKey: {
-        alfajores: process.env.CELOSCAN_API_KEY,
-        celo: process.env.CELOSCAN_API_KEY
+      alfajores: process.env.CELOSCAN_API_KEY,
+      celo: process.env.CELOSCAN_API_KEY,
     },
   },
   solidity: {
